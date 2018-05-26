@@ -17,10 +17,10 @@ footer:
   since: 2017
 
 # Author 配置博主信息
-author: '闫坤'
+author: 'naykun'
 nickname: 'naykun'
 bio: 'Deeplearning爱好者，热爱技术&设计，简单乐观爱创造'
-avatar: '/assets/img/profile0.png'
+avatar: '/assets/img/profile.jpg'
 
 # Search
 search: true
