@@ -3,8 +3,8 @@ layout: post
 title: '《量子计算》阅读笔记（综述）'
 date: 2018-08-03
 author: naykun
-cover: 'http://on2171g4d.bkt.clouddn.com/jekyll-banner.png'
-tags: Quantum Computing
+cover: 'http://imgtec.eetrend.com/sites/imgtec.eetrend.com/files/201707/blog/10067-28514-lzw0.jpg?1500443253'
+tags: Quantum-Computing
 ---
 
   <script type="text/javascript"
