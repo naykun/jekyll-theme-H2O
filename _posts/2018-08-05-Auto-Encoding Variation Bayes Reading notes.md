@@ -3,7 +3,7 @@ layout: post
 title: 'Auto-Encoding Variational Bayes Reading Notes'
 date: 2018-08-05
 author: naykun
-cover: 'https://images2015.cnblogs.com/blog/798706/201612/798706-20161222110521495-412598726.png'
+cover: 'https://cdn-images-1.medium.com/max/1600/0*OW0FnEOMhIDxpPv5.jpg'
 tags: Deeplearning
 ---
 
