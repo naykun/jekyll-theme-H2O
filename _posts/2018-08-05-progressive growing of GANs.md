@@ -85,11 +85,11 @@ explicit tests for the number of discrete modes discovered (Metz et al., 2016).
 
 我们的贡献是一种训练GANs的方法，从低分辨率图像开始，之后逐渐提高分辨率，并向网络中添加心，如图1所示，这种递增的特性是训练首先发现图片分布的大尺度结构特征，之后将注意力转移到提升细节上，而不是同时学习所有的特征。
 
-![Fig1](Fig1.png)
+![Fig1](https://raw.githubusercontent.com/naykun/naykun.github.com/master/_posts/Fig1.png)
 
 我们使用互为镜像的生成和判别网络，并总是同步地增大，在训练过程中，所有在两个网络中已存在的层仍然保持可训练的状态，当新层添加到网络中时，我们将它平滑的淡入，像图2中的那样，这样避免了已经训练好的低分辨率层带来突然的震荡，附录A详细描述了生成器和判别器的结构，以及他们的训练参数。
 
-![Fig2](Fig2.png)
+![Fig2](https://github.com/naykun/naykun.github.com/raw/master/_posts/Fig2.png)
 
 我们观察到渐进式的训练有几个优点，首先，由于有更少的类别信息和modes，生成小图像实质上变得更稳定，通过一点一点地提升分辨率，我们在不断地提出了一个个相较于直接得到，从映射向量到1024*1024分辨率的图像的映射而言简单得多的问题，这个方法在概念上和XX的工作很想，在实践中，这充分的稳定了训练，使我们能可靠地使用WGAN-GP loss (Gulrajani et al., 2017) 甚至 LSGAN loss (Mao et al., 2016b).来合成百万像素级别的图像。
 
