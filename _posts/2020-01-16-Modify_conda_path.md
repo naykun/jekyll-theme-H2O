@@ -37,7 +37,6 @@ mv /home/OLD/anaconda3 /home/NEW/anaconda3
 
 ```bash
 #!/home/NEW/anaconda3/bin/python
-
 ```
 
 更新一下conda配置
